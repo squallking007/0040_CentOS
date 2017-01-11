@@ -2,9 +2,9 @@
 ## 第一步：安装NTP服务器
 ### 确认是否安装了ntp服务器
 `#yum list installed | grep ntp`
-### 如果没有安装则安装ntp
+### 如果没有安装则安装ntp服务器
 `yum install ntp`
-### 确认正确安装了ntp
+### 确认正确安装了ntp服务器
 `#yum list installed | grep ntp`
 ## 第二步：设置本地时区
 `#ln -sf /usr/share/zoneinfor/Asia/ToKyo /etc/localtime`
