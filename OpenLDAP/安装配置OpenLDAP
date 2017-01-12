@@ -1,5 +1,5 @@
 ## CentOS7 安装配置 OpenLDAP
-***
+
 ### 1. 确认OpenLDAP的安装情况
 ```sh
 # rpm -qa | grep openldap
