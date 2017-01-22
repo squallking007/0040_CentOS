@@ -45,6 +45,7 @@
 2 修改配置文件
 ``` sh
 # vi /etc/ssh/sshd_config
+
 # 修改前
 # PermitRootLogin no
 
