@@ -45,10 +45,12 @@
 2 修改配置文件
 ``` sh
 # vi /etc/ssh/sshd_config
-```
+# 修改前
+# PermitRootLogin no
 
-将<font color="blue">#PermitRootLogin</font>行的<font color="red">no</font>修改为<font color="red">yes</font>
-> #PermitRootLogin yes
+# 修改后
+# PermitRootLogin yes
+```
 
 3 重启sshd服务
 ``` sh
