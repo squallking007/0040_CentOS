@@ -20,7 +20,7 @@
     openldap-clients-2.4.40-13.el7.x86_64
 
 ### 4. 复制slapd.conf
-###### ※CentOs7下没有[slapd.conf]文件，需要自行下载。
+###### ※CentOs7下没有[slapd.conf](./slapd.conf.obsolete)文件，需要自行下载。
 ``` sh
 # cp slapd.conf.obsolete /etc/openldap/slapd.conf
 # vi /etc/sysconfig/slapd
