@@ -293,7 +293,6 @@ $servers->setValue('server','name','My LDAP Server');
 // $servers->setValue('server','base',array(''));
 // $servers->setValue('login','auth_type','session');
 // $servers->setValue('login','bind_id','');
-// $servers->setValue('login','bind_pass','');
 // $servers->setValue('server','tls',false);
 // $servers->setValue('login','attr','dn');
 
