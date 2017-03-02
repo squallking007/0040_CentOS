@@ -21,12 +21,12 @@
 
 4 重启网络服务或者重启系统
 ``` sh
-// 重启网络服务
+# 重启网络服务
 # systemctl restart nework.service
 ```
 
 ``` sh
-// 重启系统
+# 重启系统
 # shutdown -r now
 ```
 
