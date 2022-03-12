@@ -1,5 +1,25 @@
 ### CentOS 7 相关设置
 ***
+
+#### 新建，删除用户
+
+1 创建用户
+``` sh
+# useradd -m user_name
+```
+参数m是在 `/home`下创建同名目录。
+
+2 设置密码
+``` sh
+# passwd user_name
+```
+
+3 删除用户
+``` sh
+# userdel -r user_name
+```
+参数r是在删除该用户的同时删除该用户在`/home`下的同名目录。
+
 #### IP地址设置
 
 1 确认网络配置
