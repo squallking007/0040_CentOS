@@ -29,7 +29,7 @@
 
 2 备份配置文件
 ``` sh
-# cp /etc/sysconfig/network-scripts/ifcfg-ens33 /etc/sysconfig/network-scripts/ifcfg-ens33.bak
+# cp -p /etc/sysconfig/network-scripts/ifcfg-ens33 /etc/sysconfig/network-scripts/ifcfg-ens33.bak
 ```
 
 3 修改配置文件
