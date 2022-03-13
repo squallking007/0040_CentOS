@@ -59,7 +59,7 @@
 
 1 备份配置文件
 ``` sh
-# cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+# cp -p /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 ```
 
 2 修改配置文件
